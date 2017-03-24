@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Settings</title>
+		
+		<link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1.custom/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		
+		<script src="jquery-3.1.1.js"></script>
+		<script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+		<script src="common.js"></script>
+		<script src="profile.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="green">
+					<div id="arrow"></div>
+					<ul id="menu">
+						<li>
+							<div id="profile">Profile</div>
+						</li>
+						<li>
+							<div id="settings">Settings</div>
+						</li>
+						<li>
+							<div id="logout">Logout</div>
+						</li>
+					</ul>
+				</div>
+				<h1><span class="easy">Easy</span>Course</h1>
+			</div>
+			<div id="profilearrow">main</div>
+			<div id="content">
+				<h1>Settings</h1>
+				<div id="setting">
+					<p>font size</p>
+				</div>
+				<div id="fontsize">
+					<select name="fontsize" id="font-size">
+					  <option>large</option>
+					  <option selected="selected">Medium</option>
+					  <option>small</option>
+					</select>
+				</div>
+				<div id="buttons">
+					<button type="reset" id="dischange">Discard Changes</button>
+					<button id="saveset">Save Settings</button>
+				</div>
+				
+			</div>
+			<div id="settings-dis-dialog" title="Discard Changes">
+				<p>Click Okay if you want to discard updated Settings.</p>
+			</div>
+			<div id="save-set-dialog" title="Save Settings">
+				<p>Click Okay if you want to update Settings.</p>
+			</div>
+			<div id="footer">
+				<button>University<br> Icon</button>
+				<p id="top"><span class="easy">Easy</span>Course is a course managing tool</p>
+				<p id="bottom"><span class="easy">For</span> technical problems, please contact 123-456-7890</p>
+				
+			</div>
+		</div>
+	</body>
+</html>
