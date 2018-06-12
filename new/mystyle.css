@@ -1,0 +1,111 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0px 0px 0px 0px;
+}
+
+body {
+  background-color: #d3e8e1;
+}
+
+.navigation {
+  position: fixed;
+  list-style-type: none;
+}
+
+.header-link {
+  margin: 15px;
+  display: inline-block;
+  list-style-type: none;
+}
+
+footer {
+  /* border-top: 3px dashed white; */
+  height: 200px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.intro-section {
+  margin: 10px 100px 10px 100px;
+  /* height: 100px; */
+}
+
+.intro {
+  padding: 10px;
+}
+
+.intro-padding {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* --- DECORATION --- */
+.deco-line {
+  display: inline-flex;
+  margin: 10px;
+  /* height: 10px; */
+  position: fixed;
+}
+
+/* --- FONT FORMATTING --- */
+.font-headerLink {
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.font-headerLink:hover {
+  color: #356454;
+}
+
+.is-centered {
+  text-align: center;
+}
+
+/* --- COLOR --- */
+.color-font-white {
+  color: white;
+}
+.color-font-ori {
+  color: #d27b76;
+}
+
+.color-background-ori {
+  background-color: #d3e8e1;
+}
+
+.color-background-extremeLight {
+  background-color: #eef6f4;
+}
+
+.color-background-red {
+  background-color: #d27b76;
+}
+/* color
+底色: #d3e8e1
+字体: #d27b76
+*/
+
+/* BOTTOM RIGHT BUTTONS */
+.back-to-top {
+  background-color: #d27b76;
+  font-size: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 120px;
+  padding: 13px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.contact {
+  position: fixed;
+  font-size: 20px;
+  bottom: 20px;
+  right: 20px;
+  padding: 13px;
+  text-decoration: none;
+  border-radius: 15px;
+}
