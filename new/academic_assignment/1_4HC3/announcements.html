@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Announcements</title>
+		
+		<link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1.custom/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		
+		<script src="jquery-3.1.1.js"></script>
+		<script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+		<script src="common.js"></script>
+		<script src="announcements.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="green">
+					<div id="arrow"></div>
+					<ul id="menu">
+						<li>
+							<div id="profile">Profile</div>
+						</li>
+						<li>
+							<div id="settings">Settings</div>
+						</li>
+						<li>
+							<div id="logout">Logout</div>
+						</li>
+					</ul>
+				</div>
+				<h1><span class="easy">Easy</span>Course</h1>
+			</div>
+			<div id="currentarrow"></div>
+			<div id="content">
+				<h1>Announcements</h1>
+				<table>
+					<tr>
+						<th>Date</th><th>Course</th><th>From</th><th>Abstract</th><th>status</th><th>read it</th>
+					</tr>
+					<tr>
+						<td>Nov 22</td><td>SE 4HC3</td><td>Adam</td><td>Today in the lect...</td><td>read</td><td><button>Read</button></td>
+					</tr>
+					<tr>
+						<td>Nov 20</td><td>ENG 4A04</td><td>Boyun</td><td>A new assignment...</td><td>read</td><td><button>Read</button></td>
+					</tr>
+					<tr>
+						<td>Nov 15</td><td>SE 4HC3</td><td>Yifei</td><td>Everybody gets an...</td><td style="color: red;">unread</td><td><button id="unread">Read</button></td>
+					</tr>
+				</table>
+				<div id="dialog" title="Announcement">
+					<p>Date: Nov 20&nbsp;&nbsp;Course: ENG 4A04&nbsp;&nbsp;from: Yifei (TA)<br><br>
+					I don't want to mark all this stuff, so everybody gets an A! Hip Hip Hooray!</p>
+				</div>	
+			</div>
+			<div id="footer">
+				<button>University<br> Icon</button>
+				<p id="top"><span class="easy">Easy</span>Course is a course managing tool</p>
+				<p id="bottom"><span class="easy">For</span> technical problems, please contact 123-456-7890</p>
+				
+			</div>
+		</div>
+	</body>
+</html>

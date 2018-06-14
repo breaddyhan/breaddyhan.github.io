@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Profile</title>
+		
+		<link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1.custom/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		
+		<script src="jquery-3.1.1.js"></script>
+		<script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+		<script src="common.js"></script>
+		<script src="profile.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="green">
+					<div id="arrow"></div>
+					<ul id="menu">
+						<li>
+							<div id="profile">Profile</div>
+						</li>
+						<li>
+							<div id="settings">Settings</div>
+						</li>
+						<li>
+							<div id="logout">Logout</div>
+						</li>
+					</ul>
+				</div>
+				<h1><span class="easy">Easy</span>Course</h1>
+			</div>
+			<div id="profilearrow">main</div>
+			<div id="content">
+				<h1>Profile</h1>
+				<div id="c-wrapper">
+					<div id="c-left">
+						<p>display name:</p>
+						<p>email:</p>
+					</div>
+					<div id="c-middle">
+						<form action="main.html">
+							<input type="text" value="Boyun" id="username"/>
+							<input type="email" value="boyun@gmail.com"/>
+						
+						<button type="reset">discard changes</button>
+						</form>
+					</div>
+					<div id="c-right">
+						<button id="passbut">Change<br>Password</button>
+						<button type="submit" id="savebut">Save</button>
+					</div>
+				</div>
+			</div>
+			<div id="save-dialog" title="Save Profile">
+				<p>Click okay if you would like to update profile.</p>
+			</div>
+			<div id="discard-dialog" title="Discard Changes">
+				<p>Click okay if you want to discard profile changes.</p>
+			</div>
+			<div id="password-dialog" title="Change Password">
+				<form>
+					&nbsp;&nbsp;&nbsp;&nbsp;
+					New password:&nbsp;<input type="password" id="pswrd" value="password"/><br>
+					<p id="passError"></p>
+					Confirm password:&nbsp;<input type="password" id="cfrm" value="password"/><br><br>
+					<input type="submit" value="Confirm">
+				</form>
+			</div>
+			<div id="footer">
+				<button>University<br> Icon</button>
+				<p id="top"><span class="easy">Easy</span>Course is a course managing tool</p>
+				<p id="bottom"><span class="easy">For</span> technical problems, please contact 123-456-7890</p>
+				
+			</div>
+		</div>
+	</body>
+</html>

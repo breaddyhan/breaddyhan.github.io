@@ -1,0 +1,15 @@
+<h3>Please Log In</h3>
+<form action="main.html" method="post">
+	<label for="username">username:</label>
+	<input type="text" name="username"><br>
+	<label for="password">password:</label>
+	<input type="password" name="password">
+	<button class="login">Log In</button>
+</form>
+<script>
+$(document).ready(function(){
+	$("#login button.login").mouseenter(function(){
+		$(this).css('cursor','pointer');
+	});
+});
+</script>

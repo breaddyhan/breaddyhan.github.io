@@ -49,6 +49,11 @@ h1 {
   position: fixed;
 }
 
+/* --- IMAGE FORMATTING --- */
+.academicProject-figureItem {
+  width: 100px;
+}
+
 /* --- FONT FORMATTING --- */
 .font-headerLink {
   font-weight: bold;
