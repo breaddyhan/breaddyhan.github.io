@@ -66,6 +66,7 @@ h1 {
 }
 
 .is-centered {
+  align: center;
   text-align: center;
 }
 
